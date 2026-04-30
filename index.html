@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertor de medidas(Distância)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Convertor de medidas(distância)</h1>
+
+        <label for="valor a">Valor a converter:</label>
+        <input type="number" id="num" placeholder="Quer converter qual valor ?">
+        <br><br>
+        
+        <button onclick="convertercm_m()">cm/m</button>
+        <button onclick="converterm_cm()">m/cm</button>
+        <button onclick="converterm_km()">m/km</button>
+        <button onclick="converterkm_m()">km/m</button>
+        <button onclick="convertercm_km()">cm/km</button>
+        <button onclick="converterkm_cm()">km/cm</button>
+        <button onclick="limpar()">Limpar</button>
+
+    <h2 id="resultado"></h2>
+   
+    <script src="script.js"></script>
+</body>
+</html>

@@ -15,7 +15,7 @@ function convertercm_m() {
         resultado.style.color = "red";
         return;
     }
-    // 3. Verificar a subtração
+    // 3. Verificar a conversão
     let resultadoConversão = num/100;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
@@ -40,7 +40,7 @@ function converterm_cm() {
         resultado.style.color = "red";
         return;
     }
-    // 3. Verificar a subtração
+    // 3. Verificar a conversão
     let resultadoConversão = num*100;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
@@ -65,7 +65,7 @@ function converterm_km() {
         resultado.style.color = "red";
         return;
     }
-    // 3. Verificar a subtração
+    // 3. Verificar a conversão
     let resultadoConversão = num/1000;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
@@ -90,7 +90,7 @@ function converterkm_m() {
         resultado.style.color = "red";
         return;
     }
-    // 3. Verificar a subtração
+    // 3. Verificar a conversão
     let resultadoConversão = num*1000;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
@@ -114,7 +114,7 @@ function converterkm_m() {
         resultado.style.color = "red";
         return;
     }
-    // 3. Verificar a subtração
+    // 3. Verificar a conversão
     let resultadoConversão = num/100000;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
@@ -139,7 +139,7 @@ function converterkm_m() {
         resultado.style.color = "red";
         return;
     }
-    // 3. Verificar a subtração
+    // 3. Verificar a conversão
     let resultadoConversão = num*100000;
     resultado.style.color = "blue";
   // 4. Mostrar o valor na tela
